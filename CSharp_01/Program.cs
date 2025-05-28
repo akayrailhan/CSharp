@@ -27,6 +27,19 @@ namespace CSharp_01
 
             Console.WriteLine(customerSurname);
 
+            string idNumber;
+            int age;
+
+            Console.Write("Please enter your ID number: ");
+            idNumber = Console.ReadLine();
+            Console.Write("Please enter your age: ");
+            age = int.Parse(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.WriteLine("Your ID number is: " + idNumber);
+            Console.WriteLine("Your age is: " + age);
+
             Console.Read();
         }
     }
